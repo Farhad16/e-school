@@ -138,7 +138,7 @@ h2{
     padding: 30px 14px;
 }
 
-#card .card{
+#course .card{
     border: none;
     width: 370px;
     height: 470px;
@@ -147,11 +147,11 @@ h2{
     border-radius: 18px;
 
 }
-#card .card-body{
+#course .card-body{
     height: 150px;
 }
 
-#card .card-img{
+#course .card-img{
     border-radius: 11px;
     width: 331px;
     height: 234px;
@@ -226,3 +226,12 @@ h2{
     color: #AEAEAE;
 }
 
+
+.buy-now-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
