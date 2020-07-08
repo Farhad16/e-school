@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: normal;
 }
 .container{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .navigation{
@@ -30,8 +30,13 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 30px; 
     color: rgb(56, 54, 54);
     font-weight: 800px;
+    margin-left: 4px;
 }
 
+#navbar-override .nav-link:hover{
+    background-color: #FD511A;
+    border-radius: 33px;
+}
 .signin-style{
     background-color:#21B573 ;
     border-radius: 33px;
@@ -103,7 +108,7 @@ h1{
 }
 
 #generate-padding{
-    padding: 0px 20px;
+    padding: 0px 17px;
 }
 
 h2{
@@ -116,21 +121,23 @@ h2{
 #students{
     background-color: #fff;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 30px 14px;
 }
 
 #card .card{
     border: none;
     width: 370px;
-    height: 450px;
+    height: 470px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     color: #413960;
+    border-radius: 18px;
 
 }
 #card .card-body{
     height: 150px;
 }
 
-#card img{
+#card .card-img{
     border-radius: 11px;
     width: 331px;
     height: 234px;
@@ -148,13 +155,56 @@ h2{
     padding: 5px 25px;
 }
 
-.footer{
-    margin-top: 20px;
-    width: 50px;
-    height: 50px;
+.footer-card{
+    margin-top: 30px;
+    /* width: 50px;
+    height: 50px; */
 }
 
-#card .footer img{
+.calendar{
     width: 24px;
-    height: 24px;
+    padding-bottom: 20px;
+}
+
+.testimonial{
+    width: 670px;
+}
+
+.seat{
+    padding-left: 10px;
+}
+
+.man{
+    width: 300px;
+    padding-right: 40px;
+}
+.man img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer{
+    background: #282531;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h6{
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#course p{
+    line-height: 15px;
+    color: #D2D2D2;
+}
+
+.copyright{
+    text-align: center;
+    color: #AEAEAE;
 }
